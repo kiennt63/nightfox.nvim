@@ -56,7 +56,7 @@ local function generate_spec(pal)
 
   spec.syntax = {
     bracket     = spec.fg2,           -- Brackets and Punctuation
-    builtin0    = pal.blue.base,       -- Builtin variable
+    builtin0    = pal.blue.dim,       -- Builtin variable
     builtin1    = pal.cyan.bright,    -- Builtin type
     builtin2    = pal.orange.bright,  -- Builtin const
     builtin3    = pal.red.bright,     -- Not used
